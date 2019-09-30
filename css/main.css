@@ -1,0 +1,61 @@
+body{
+	font: Arial , sans-serif; 
+	padding: 0;
+	margin: 0;
+}
+header{
+	background: url(../img/фон2.jpg) no-repeat center top / cover  ;
+	height:600px;
+}
+.container{
+	width: 930px;
+	margin: 0 auto;
+}
+.nav{
+	display: flex;
+}
+.menu{
+	margin-right: 20px;
+
+}
+.menu span {
+	background: #000; 
+	display: block;
+	width: 46px;
+	height: 5px;
+	margin-bottom: 3px;
+}
+.menu span:nth-child(1){
+width: 38px;
+}
+.menu span:nth-child(2){
+width: 38px;
+}
+.menu2{
+margin-top: 80px;
+}
+.menu2{
+	padding: 0;
+	margin: 0;
+	display: block;
+}
+.left li{
+	float: left;
+	margin-right: 41px;
+	margin-top: 50px;
+}
+.left li a{
+	color: #000;
+	text-decoration: none;
+	font-size: 16px
+}
+.ritgh li{
+	float: right;
+	margin-left: 41px;
+	margin-top: 50px;
+}
+.ritgh li a{
+	color: #000;
+	text-decoration: none;
+	font-size: 16px;
+}
