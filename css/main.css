@@ -4,25 +4,33 @@ body{
 	margin: 0;
 }
 header{
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
 	background: url(../img/фон2.jpg) no-repeat center top / cover  ;
 	height:600px;
 }
 .container{
-	width: 930px;
+	width: 1340px;
 	margin: 0 auto;
 }
-.nav{
-	display: flex;
+.head{
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin: 0 30px;
 }
-.menu{
-	margin-right: 20px;
 
+.menu{
+	float: left;
 }
 .menu span {
 	background: #000; 
 	display: block;
 	width: 46px;
-	height: 5px;
+	height: 4px;
 	margin-bottom: 3px;
 }
 .menu span:nth-child(1){
@@ -31,31 +39,41 @@ width: 38px;
 .menu span:nth-child(2){
 width: 38px;
 }
-.menu2{
-margin-top: 80px;
+
+li {
+  list-style-type: none;
+  
 }
 .menu2{
-	padding: 0;
-	margin: 0;
-	display: block;
+	display: inline-block;
+	vertical-align: top;
 }
-.left li{
-	float: left;
-	margin-right: 41px;
-	margin-top: 50px;
+.menu2:hover{
+color: #ffff	;
 }
-.left li a{
+.menu2 li{
+margin-left: 40px;
+display: inline;
+}
+.menu2 li a{
 	color: #000;
 	text-decoration: none;
 	font-size: 16px
 }
-.ritgh li{
-	float: right;
-	margin-left: 41px;
-	margin-top: 50px;
+.menu3 img{
+width: 200px;
+
 }
-.ritgh li a{
+.menu4{
+	float: right;
+}
+.menu4 li{
+display: inline;
+margin-left: 40px;
+
+}
+.menu4 li a{
 	color: #000;
 	text-decoration: none;
-	font-size: 16px;
+	font-size: 16px
 }
