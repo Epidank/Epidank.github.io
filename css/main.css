@@ -3,8 +3,7 @@ body{
 	padding: 0;
 	margin: 0;
 }
-header{
-	
+header{ 
 	width: 100%;
 	position: absolute;
 	top: 0;
@@ -18,13 +17,12 @@ header{
 	margin: 0 auto;
 }
 .head{
-display: flex;
+display:inline-flex;
 align-items: center;
-margin: 0 30px;
 }
 
-.menu{
-	float: left;
+.nav{
+	margin-left: 0px;
 }
 .menu span {
 
@@ -46,6 +44,7 @@ li {
   
 }
 .menu2{
+	margin-left: 0px;
 	display: inline-block;
 	vertical-align: top;
 }
@@ -53,9 +52,10 @@ li {
 color: #ffff	;
 }
 .menu2 li{
+	margin-left: 40px;
 display: inline;
-margin-left: 40px;
 }
+
 .menu2 li a{
 	color: #000;
 	text-decoration: none;
@@ -63,10 +63,10 @@ margin-left: 40px;
 }
 .menu3 img{
 width: 200px;
-margin-left: 100px;
+margin-left: 140px;
 }
 .menu4{
-	float: right;
+	margin-left: 60px;
 	display: inline-block;
 	vertical-align: top;
 }
