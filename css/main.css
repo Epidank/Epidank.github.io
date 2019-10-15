@@ -4,6 +4,7 @@ body{
 	margin: 0;
 }
 header{
+	
 	width: 100%;
 	position: absolute;
 	top: 0;
@@ -18,7 +19,6 @@ header{
 }
 .head{
 display: flex;
-justify-content: space-between;
 align-items: center;
 margin: 0 30px;
 }
@@ -27,17 +27,18 @@ margin: 0 30px;
 	float: left;
 }
 .menu span {
+
 	background: #000; 
 	display: block;
-	width: 46px;
-	height: 4px;
+	width: 42px;
+	height: 3px;
 	margin-bottom: 3px;
 }
 .menu span:nth-child(1){
-width: 38px;
+width: 34px;
 }
 .menu span:nth-child(2){
-width: 38px;
+width: 34px;
 }
 
 li {
@@ -52,8 +53,8 @@ li {
 color: #ffff	;
 }
 .menu2 li{
-margin-left: 40px;
 display: inline;
+margin-left: 40px;
 }
 .menu2 li a{
 	color: #000;
@@ -62,10 +63,12 @@ display: inline;
 }
 .menu3 img{
 width: 200px;
-
+margin-left: 100px;
 }
 .menu4{
 	float: right;
+	display: inline-block;
+	vertical-align: top;
 }
 .menu4 li{
 display: inline;
