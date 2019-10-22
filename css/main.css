@@ -1,16 +1,13 @@
 body{
-	font: Arial , sans-serif; 
 	padding: 0;
 	margin: 0;
 }
-header{ 
+header{
+	font: 'Arial' , sans-serif;
 	width: 100%;
 	position: absolute;
-	top: 0;
-	left: 0;
-	right: 0;
 	background: url(../img/back.jpg) no-repeat center top / cover  ;
-	height:800px;
+	height:900px;
 }
 .container{
 	width: 1340px;
@@ -48,18 +45,22 @@ li {
 	display: inline-block;
 	vertical-align: top;
 }
-.menu2:hover{
-color: #ffff	;
+.menu2 a:hover{
+color: #2B6CC4	;
+}
+.menu22222 a:hover{
+	text-shadow: 1 1 1 4px #FFFFFF, 1 1 1 4px #CA2C92;
 }
 .menu2 li{
-	margin-left: 40px;
+margin-left: 40px;
 display: inline;
 }
 
 .menu2 li a{
 	color: #000;
 	text-decoration: none;
-	font-size: 16px
+	font-size: 16px;
+	transition: color 1s linear;
 }
 .menu3 img{
 width: 200px;
@@ -70,13 +71,56 @@ margin-left: 140px;
 	display: inline-block;
 	vertical-align: top;
 }
+.ms:hover{
+color: #2B6CC4	;
+}
 .menu4 li{
 display: inline;
 margin-left: 40px;
 
 }
-.menu4 li a{
+.ms{
 	color: #000;
 	text-decoration: none;
-	font-size: 16px
+	font-size: 16px;
+	transition: color 1s linear;
+}
+.btn{
+	background: none;
+	padding: 5px;
+	border: 2px solid black;
+	color: #000;
+	text-decoration: none;
+	font-size: 16px;
+	transition: background 2s linear, color 1s linear;
+}
+.btn:hover{
+	background-color: #6495ED;
+	color: #FFA500;
+}
+.name{
+	font-family: 'Segoe UI Emoji';
+	font-size: 90px;
+	color: #000;
+	margin-top:	 300px;
+	margin-left: 500px;
+	position: relative;
+	text-shadow: 1px 10px 5px black;
+	letter-spacing: 0.5em;
+	z-index: 2;
+}
+.part2{
+position: relative;
+	top: 450px;
+	margin-left: 590px;
+	z-index: 1;
+}
+h1{
+	font-family: 'Candara';
+	font-size: 14pt;
+	color: #000;
+	position: absolute;
+	z-index: 3;
+	margin-top: 165px;
+	margin-left:670px;
 }
