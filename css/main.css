@@ -1,132 +1,124 @@
 body{
-	margin-top: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-bottom: 0px;
+	margin:0;
+   padding: 0;
 }
-header{
+html: {
+	font-size: 10px;
+}
+.header{
+	color: #000;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
 	font: 'Arial' , sans-serif;
 	width: 100%;
 	background: url(../img/back.png) no-repeat center top / cover  ;
 	height:900px;
+	position: relative;
 }
-.head{
-display:inline-flex;
-align-items: center;
+.main{
+	display: flex;
+	width: 90%;
+	display:inline-flex;
+    align-items: center;
+     height: 15vh;
+   border: 2px solid red;
 }
-
-.nav{
-	margin-left:60px;
+li {
+list-style-type: none;
 }
-.menu span {
+.menu {
+	display: flex;
+}
+.menu li {
+	display: inline-block;
+    list-style: none;
+}
+.menu a{
+	text-decoration: none;
+	color: #000;
+}
+.menu1 span {
 	background: #000; 
 	display: block;
 	width: 42px;
 	height: 3px;
 	margin-bottom: 3px;
 }
-.menu span:nth-child(1){
+.menu1 span:nth-child(1){
 width: 34px;
 }
-.menu span:nth-child(2){
+.menu1 span:nth-child(2){
 width: 34px;
-}
-
-li {
-  list-style-type: none;
-  
 }
 .menu2{
-	margin-left: 50px;
-	display: inline-block;
-	vertical-align: top;
-}
-.menu2 a:hover{
-color: #2B6CC4	;
+	padding-top: 2em;
 }
 .menu2 li{
-margin-left: 40px;
-display: inline;
+	padding-left: 4em;
 }
-
+.menu2 a:hover{
+color: #2B6CC4 ;
+}
 .menu2 li a{
-	color: #000;
-	text-decoration: none;
-	font-size: 16px;
-	transition: color 1s linear;
+font-size: 1rem;
+transition: color 1s linear;
 }
 .menu3 img{
 width: 200px;
-margin-left: 130px;
+padding-left: 8em;
 }
 .menu4{
-	margin-left: 60px;
-	display: inline-block;
-	vertical-align: top;
-}
-.ms:hover{
-color: #2B6CC4	;
+	padding-top: 2em;
 }
 .menu4 li{
-display: inline;
-margin-left: 40px;
-
+	padding-left: 4em;
 }
-.ms{
-	color: #000;
-	text-decoration: none;
-	font-size: 16px;
-	transition: color 1s linear;
+.menu4 a:hover{
+color: #2B6CC4 ;
+}
+.menu4 li a{
+font-size: 1rem;
+transition: color 1s linear;
 }
 .btn{
-	background: none;
-	padding: 5px;
-	border: 2px solid black;
-	color: #000;
-	text-decoration: none;
-	font-size: 16px;
-	transition: background 2s linear, color 1s linear;
+background: none;
+padding: 5px;
+border: 2px solid black;
+color: #000;
+text-decoration: none;
+font-size: 1rem;
+transition:  color 1s linear;
 }
 .btn:hover{
-	background-color: #6495ED;
-	color: #FFA500;
-}
-.name{
-	font-family:  'Segoe UI Emoji';
-	font-size: 120px;
-	color: #000;
-	margin-top:	 340px;
-	margin-left: 460px;
-	text-shadow: 1px 10px 5px black;
-	letter-spacing: 0.5em;
-	position: absolute;
-	z-index: 1;
+color: #FFA500;
 }
 .part2{
-	background: url(../img/grad.png) center no-repeat;
-    height: 650px;
-    width: 100%;
-    margin-top: -450px;
-    position: relative;
-    z-index: 0;
+display: flex;
+background: url(../img/grad.png) center no-repeat;
+height: 650px;
+width: 100%;
+margin-top: -450px;
+position: relative;
+z-index: 1;
 }
-.txt{
-	font:'Candara'
-	font-size:18px; 
-	padding-top: 18px;
-	padding-left: 50px;
+.part2 h2{
+
 }
 .part3{
-	background: url(../img/back3.png) center no-repeat; 
-	height: 762px;
-	width: 100%;
-	margin-top: -202px;
-	position: relative;
-	z-index: -1;
+	display: flex;
+background: url(../img/back3.png) center no-repeat;
+height: 762px;
+width: 100%;
+margin-top: -202px;
+position: relative;
+z-index: -1;
 }
 .textpart3{
-	text-shadow: 1px 5px 5px black;
-	padding-top: 220px;
-	padding-left: 520px;
-	font-size: 60px;
-}
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+text-shadow: 1px 5px 5px black;
+font-size: 4rem;
+   align-items: center;
+   }
