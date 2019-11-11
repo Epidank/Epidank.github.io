@@ -192,16 +192,38 @@ text-align: center;
 }
 .grad2{
 position: relative;
+z-index: 4;
+width: 55%;
+padding-left: 10.5rem;
+padding-top: 6rem;
 }
-.grad2 img{
-padding-left: 8rem;
-padding-top: 8rem;
-height: 60%;
-width: 60%
+.grid{
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: repeat(4, 9rem);
 }
-.contice1{
-position: relative;
-border: 2px solid black;
-height: 3rem;
-width: 3rem
+
+.grid div:nth-child(1){
+border-right: 1px solid black;
 }
+.grid div:nth-child(2){
+}
+.grid div:nth-child(3){
+border-top: 1px solid black
+}
+.grid div:nth-child(4){
+border-top: 1px solid black
+}
+.grid div:nth-child(5){
+grid-column: 1 / -1;
+border-top: 1px solid black;
+}
+.grid div:nth-child(6){
+border-top: 1px solid black;
+grid-row: 4;
+grid-column: 1 / -1;
+}
+.grid {
+background: url(../img/grad2.png) no-repeat;
+}
+
