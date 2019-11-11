@@ -190,14 +190,11 @@ text-align: center;
 padding-top:2%;
 text-align: center;
 }
-.containerice{
-
-}
 .grad2{
 position: relative;
 z-index: 4;
 width: 55%;
-padding-left: 10.5rem;
+padding-left: 25%;
 padding-top: 6rem;
 }
 .grid{
