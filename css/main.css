@@ -190,6 +190,9 @@ text-align: center;
 padding-top:2%;
 text-align: center;
 }
+.containerice{
+
+}
 .grad2{
 position: relative;
 z-index: 4;
@@ -197,6 +200,7 @@ width: 55%;
 padding-left: 10.5rem;
 padding-top: 6rem;
 }
+<<<<<<< HEAD
 .grid{
 display: grid;
 grid-template-columns: repeat(2, 1fr);
@@ -225,5 +229,11 @@ grid-column: 1 / -1;
 }
 .grid {
 background: url(../img/grad2.png) no-repeat;
+}
+
+.grad2 img{
+padding-left: 
+padding-top: 8reht: 60%;
+width: 60%
 }
 
