@@ -190,18 +190,14 @@ text-align: center;
 padding-top:2%;
 text-align: center;
 }
+.containerice{
+
+}
 .grad2{
 position: relative;
 }
 .grad2 img{
-padding-left: 8rem;
-padding-top: 8rem;
-height: 60%;
+padding-left: 
+padding-top: 8reht: 60%;
 width: 60%
-}
-.contice1{
-position: relative;
-border: 2px solid black;
-height: 3rem;
-width: 3rem
 }
