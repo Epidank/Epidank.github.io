@@ -355,7 +355,7 @@ height: 400px;
 	position: absolute;
 font-size: 0.7rem;
 font-family: 'Fjalla One', sans-serif;
-width: 16%;
+width: 18%;
 height: 2%;
 }
 .textmap p a{
@@ -508,7 +508,7 @@ border-radius: 10px;
 background: white;
 position: absolute;
 margin-left: 22.3rem;
-margin-top:20.7rem;}
+margin-top:21rem;}
 .radius11{
 width: 10px;
 height: 10px;
@@ -516,7 +516,7 @@ border-radius: 10px;
 background: white;
 position: absolute;
 margin-left: 17rem;
-margin-top: 26rem;}
+margin-top: 26.5rem;}
 .radius12{
 width: 10px;
 height: 10px;
@@ -524,7 +524,7 @@ border-radius: 10px;
 background: white;
 position: absolute;
 margin-left: 15.5rem;
-margin-top: 27.7rem;}
+margin-top: 28rem;}
 .radius13{
 width: 10px;
 height: 10px;
@@ -532,7 +532,7 @@ border-radius: 10px;
 background: white;
 position: absolute;
 margin-left: 17rem;
-margin-top: 31.4rem;}
+margin-top: 32rem;}
 .radius14{
 width: 10px;
 height: 10px;
@@ -540,7 +540,7 @@ border-radius: 10px;
 background: white;
 position: absolute;
 margin-left: 12rem;
-margin-top: 29rem;}
+margin-top: 29.5rem;}
 .btnlearn {
 position: absolute;
 padding-top: 15.4rem;
