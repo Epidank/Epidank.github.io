@@ -15,7 +15,7 @@ height:900px;
 color: #000;
 display: flex;
 justify-content: center;
-font-family: 'Big Shoulders Text', cursive;
+font-family: 'Fjalla One', sans-serif;
 font-size: 1rem;
 }
 .main{
@@ -38,21 +38,21 @@ list-style: none;
 text-decoration: none;
 color: #000;
 }
-.menu1{
+.gamburger{
 position: absolute;
 padding-top: 2rem;
 }
-.menu1 span {
+.gamburger span {
 background: #000;
 display: block;
 width: 42px;
 height: 3px;
 margin-bottom: 3px;
 }
-.menu1 span:nth-child(1){
+.gamburger span:nth-child(1){
 width: 34px;
 }
-.menu1 span:nth-child(2){
+.gamburger span:nth-child(2){
 width: 34px;
 }
 .menu2{
@@ -85,10 +85,10 @@ color: #2B6CC4 ;
 .menu4 li a{
 transition: color 1s linear;
 }
-.book{
+.bookatour{
 margin-left: 2rem
 }
-.btn{
+.btnbook{
 background: none;
 padding: 5px;
 border: 2px solid black;
@@ -97,10 +97,10 @@ text-decoration: none;
 font-size: 1rem;
 transition: color 1s linear;
 }
-.btn:hover{
+.btnbook:hover{
 color: #FFA500;
 }
-.name{
+.mainname{
 font-family: 'Montserrat', sans-serif;
 text-align: center;
 position: relative;
@@ -131,7 +131,7 @@ z-index: 2;
 text-align: center;
 margin-top: 5em
 }
-.part2{
+.gradient{
 background: url(../img/grad.png) center no-repeat;
 height: 650px;
 width: 100%;
@@ -139,11 +139,7 @@ position: absolute;
 z-index: 1;
 margin-top: -37rem;
 }
-.part2 div:nth-child(1){
-padding-top: 40%;
-padding-left: 10px;
-}
-.part3{
+.middle{
 position: relative;
 background-color: black;
 text-align: center;
@@ -151,22 +147,22 @@ background:url(../img/back2.png) center no-repeat;
 width: 100%;
 height: 900px;
 }
-.tex3{
+.mainmiddletxt{
 font-family: 'Dosis', sans-serif;
 font-size: 4rem;
 padding-top: 15%;
 text-shadow: 0.1rem 0.2rem 0.2rem black;
 }
-.tex31 {
+.middletext1 {
 padding-top: 3%;
 font-size: 1.5rem;
 }
-.tex32{
+.middletext2{
 padding-top: 6%;
 font-size: 1rem;
 line-height:1.5em;
 }
-.tex33{
+.middletext3{
 padding-top: 6%;
 font-size: 1.7rem;
 }
@@ -197,7 +193,6 @@ text-align: center;
 padding-top:2%;
 text-align: center;
 }
-
 .grad2{
 position: relative;
 z-index: 4;
@@ -210,61 +205,57 @@ display: grid;
 grid-template-columns: repeat(2, 1fr);
 grid-template-rows: repeat(4, 10rem);
 }
-
 .grid div:nth-child(1){
 border-right: 1px solid black;
 }
 .grid div h2:nth-child(1){
-font-family: 'Big Shoulders Text', cursive;
+font-family: 'Fjalla One', sans-serif;
 position: absolute;
 font-size: 3.2rem;
 padding-left: 2rem;
 }
-
-.txt1{
-font-family: 'Big Shoulders Text', cursive;
+.itemtxt1{
+font-family: 'Fjalla One', sans-serif;
 font-size: 1rem;
 padding-top: 2rem;
 padding-left: 4rem;
 }
-.txt12{
+.itemtxt12{
 font-size: 1rem;
 padding-left: 4rem;
 }
-.txt2{
-font-family: 'Big Shoulders Text', cursive;
-font-size: 1rem;
-padding-top: 2rem;
-padding-left: 4rem;
-}
-.txt22{
-font-size: 1rem;
-padding-left: 4rem;
-}
-.txt3{
-font-family: 'Big Shoulders Text', cursive;
+.itemtxt2{
+font-family: 'Fjalla One', sans-serif;
 font-size: 1rem;
 padding-top: 2rem;
 padding-left: 4rem;
 }
-.txt32{
+.itemtxt22{
 font-size: 1rem;
 padding-left: 4rem;
 }
-.txt4{
-font-family: 'Big Shoulders Text', cursive;
+.itemtxt3{
+font-family: 'Fjalla One', sans-serif;
+font-size: 1rem;
+padding-top: 2rem;
+padding-left: 4rem;
+}
+.itemtxt32{
+font-size: 1rem;
+padding-left: 4rem;
+}
+.itemtxt4{
+font-family: 'Fjalla One', sans-serif;
 font-size: 1rem;
  
 padding-top: 2rem;
 padding-left: 4rem;
 }
-.txt42{
+.itemtxt42{
 font-size: 1rem;
 padding-left: 4rem;
 }
-.grid div:nth-child(2){
 
-}
 .grid div:nth-child(3){
 border-top: 1px solid black;
 border-right: 1px solid black;
@@ -278,7 +269,7 @@ border-top: 1px solid black;
 text-align: center;
 }
 .item5 {
-font-family: 'Big Shoulders Text', cursive;
+font-family: 'Fjalla One', sans-serif;
 font-size: 2.4rem;
 }
 
@@ -326,9 +317,9 @@ background: url(../img/grad2.png) no-repeat;
 .mapbaikal{
 position: relative;
 margin-left: 50%;
-background: url(../img/back3.png) no-repeat;
+background: url(../img/backmap.png) no-repeat;
 height:800px;
-margin-top: -800px
+margin-top: -800px;
 }
 .partmap{
 text-align: center;
@@ -361,69 +352,79 @@ margin-top: 7rem;
 height: 400px;
 }
 .textmap p{
-position: absolute;
+	position: absolute;
 font-size: 0.7rem;
-font-family: 'Big Shoulders Text', cursive;
+font-family: 'Fjalla One', sans-serif;
+width: 16%;
+height: 2%;
+}
+.textmap p a{
+	text-decoration: none;
+	color: black;
+	transition: color 0.6s linear;
+}
+.textmap p a:hover{
+color: #800080;
 }
 .Yarki{
-padding-left: 31.8rem;
-padding-top: 6rem;
+margin-left: 31.8rem;
+margin-top: 2rem;
 }
 .Frolikha{
-padding-left: 34.9rem;
-padding-top: 8rem;
+margin-left: 33rem;
+margin-top: 4rem;
 }
 .Khakusi{
-padding-left: 33rem;
-padding-top: 10.2rem;
+margin-left: 31.7rem;
+margin-top: 7rem;
 }
 .Davan{
-padding-left: 24.4rem;
-padding-top: 7rem;
+margin-left: 24rem;
+margin-top: 3rem;
 }
 .Ushkanyi{
-padding-left: 28.9rem;
-padding-top: 17rem;
+margin-left: 27rem;
+margin-top: 15rem;
 }
 .Zama{
-padding-left: 25rem;
-padding-top: 17rem;
+margin-left: 22.5rem;
+margin-top: 16rem;
 }
 .Chivirkuysky{
-padding-left: 31rem;
-padding-top: 19.5rem;
+margin-left: 30rem;
+margin-top: 17.5rem;
 }
 .Yenkhokh{
-padding-left: 23.3rem;
-padding-top: 18.8rem;}
+margin-left: 21rem;
+margin-top: 17.5rem;}
 }
 .Maldesea{
-padding-left: 30.3rem;
-padding-top: 2.6rem;
+margin-left: 30.3rem;
+margin-top: 2.6rem;
 }
 .Olkhov{
-padding-left: 25rem;
-padding-top:22.8rem;
+margin-left: 22.8rem;
+margin-top:21.3rem;
 }
 .Peschanaya{
-padding-left: 16.4rem;
-padding-top: 24.5rem;
+margin-left: 12.5rem;
+margin-top: 25rem;
 }
 .Listvyanka{
-padding-left: 16rem;
-padding-top: 26.7rem;
+margin-left: 12rem;
+margin-top: 27rem;
 }
 .Mamay{
-padding-left: 20.5rem;
-padding-top: 31.4rem;
+margin-left: 18rem;
+margin-top: 31.8rem;
 }
 .Circum{
-padding-left: 10rem;
-padding-top: 28rem;
+margin-left: 5rem;
+margin-top: 28.3rem;
 }
 .malde{
-padding-left: 21.7rem;
-padding-top: 20rem;
+margin-left: 19rem;
+margin-top: 19rem;
 }
 .radius1{
 width: 10px;
@@ -431,8 +432,8 @@ height: 10px;
 border-radius: 10px;
 background: white;
 position: absolute;
-margin-left: 31.5rem;
-margin-top: 7.7rem;
+margin-left: 30.8rem;
+margin-top: 2.5rem;
 }
 .radius2{
 width: 10px;
@@ -440,8 +441,8 @@ height: 10px;
 border-radius: 10px;
 background: white;
 position: absolute;
-margin-left: 32rem;
-margin-top: 10.2rem;
+margin-left: 31rem;
+margin-top:6.2rem;
 }
 .radius3{
 width: 10px;
@@ -449,8 +450,8 @@ height: 10px;
 border-radius: 10px;
 background: white;
 position: absolute;
-margin-left: 34rem;
-margin-top: 9rem;}
+margin-left: 32.5rem;
+margin-top: 5rem;}
 .radius4{
 width: 10px;
 height: 10px;
@@ -458,7 +459,7 @@ border-radius: 10px;
 background: white;
 position: absolute;
 margin-left: 26rem;
-margin-top: 8.6rem;
+margin-top: 3.6rem;
 }
 .radius5{
 width: 10px;
@@ -466,56 +467,55 @@ height: 10px;
 border-radius: 10px;
 background: white;
 position: absolute;
-margin-left: 30rem;
-margin-top: 19.5rem;}
+margin-left: 29rem;
+margin-top: 17rem;}
 .radius6{
 width: 10px;
 height: 10px;
 border-radius: 10px;
 background: white;
 position: absolute;
-margin-left: 28.3rem;
-margin-top: 18.5rem;}
+margin-left: 26.5rem;
+margin-top: 16rem;}
 .radius7{
 width: 10px;
 height: 10px;
 border-radius: 10px;
 background: white;
 position: absolute;
-margin-left: 26.5rem;
-margin-top: 18.7rem;}
+margin-left: 24.3rem;
+margin-top: 16.5rem;}
 .radius8{
 width: 10px;
 height: 10px;
 border-radius: 10px;
 background: white;
 position: absolute;
-margin-left: 25.5rem;
-margin-top: 20.3rem;}
+margin-left: 23.5rem;
+margin-top: 18rem;}
 .radius9{
 width: 10px;
 height: 10px;
 border-radius: 10px;
 background: white;
 position: absolute;
-margin-left: 24.3rem;
-margin-top: 21.6rem;}
- 
+margin-left: 22rem;
+margin-top: 19.5rem;}
 .radius10{
 width: 10px;
 height: 10px;
 border-radius: 10px;
 background: white;
 position: absolute;
-margin-left: 24.3rem;
-margin-top:22.8rem;}
+margin-left: 22.3rem;
+margin-top:20.7rem;}
 .radius11{
 width: 10px;
 height: 10px;
 border-radius: 10px;
 background: white;
 position: absolute;
-margin-left: 20.3rem;
+margin-left: 17rem;
 margin-top: 26rem;}
 .radius12{
 width: 10px;
@@ -523,15 +523,15 @@ height: 10px;
 border-radius: 10px;
 background: white;
 position: absolute;
-margin-left: 18.5rem;
-margin-top: 28.3rem;}
+margin-left: 15.5rem;
+margin-top: 27.7rem;}
 .radius13{
 width: 10px;
 height: 10px;
 border-radius: 10px;
 background: white;
 position: absolute;
-margin-left: 19.8rem;
+margin-left: 17rem;
 margin-top: 31.4rem;}
 .radius14{
 width: 10px;
@@ -539,14 +539,14 @@ height: 10px;
 border-radius: 10px;
 background: white;
 position: absolute;
-margin-left: 16rem;
-margin-top: 29.5rem;}
+margin-left: 12rem;
+margin-top: 29rem;}
 .btnlearn {
 position: absolute;
 padding-top: 15.4rem;
 padding-left: 5rem;
 }
-.btn1{
+.btnlearnmore{
 background-color: none;
 padding: 5px;
 color: black;
@@ -577,7 +577,7 @@ height: 80%;
 .Baikal-logoend img{
 height: 130px;
 padding-top: 12rem;
-padding-left: 12rem;
+padding-left: 14rem;
 }
 .borderend{
 display: flex;
@@ -588,7 +588,7 @@ margin-left: 8rem;
 opacity: 0.3;
 }
 .nomberphone{
-font-family: 'Big Shoulders Text', cursive;
+font-family: 'Fjalla One', sans-serif;
 padding-top: 3rem;
 padding-left: 8rem;
 }
