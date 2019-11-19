@@ -362,12 +362,7 @@ border-right: 2px solid black;
 .btnlearn a:hover:{
 color: white;
 }
-.map img{
-padding-top: 5rem;
-padding-left:11rem;
-position: absolute;
-height: 440px;
-}
+
 .radius1{
 width: 13px;
 height: 13px;
