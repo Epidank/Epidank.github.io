@@ -1,4 +1,4 @@
-цикл while
+цикл while  цикл будет работать, пока не исполнится определённое условие
 a = 0
 while a<=100:
   a = int (input())
@@ -7,7 +7,7 @@ while a<=100:
   if a<10:
     continue
   print(a)
-цикл for
+цикл for цикл проходиться по каждому из элементов списка range
 a = int(input())
 b = int(input())
 s = 0
