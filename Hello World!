@@ -1,0 +1,2 @@
+file = open(директория файла, 'a')
+file.write('Hello world!')
