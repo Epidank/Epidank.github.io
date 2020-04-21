@@ -5,3 +5,12 @@ for i in range(l//2):
         print("It's not palindrome")
         quit()
 print("It's palindrome")
+
+
+
+s = input()
+s = S.lower()
+if s == s[::-1]:
+    print('палиндром')
+else:
+    print('не палиндром')
